@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "resultset": {
+      "count": 10,
+      "limit": 25,
+      "offset": 1
+    }
+  },
+  "results": [
+    {
+      "attributes": ",,H,",
+      "datatype": "SNOW",
+      "date": "2016-10-03T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 0
+    },
+    {
+      "attributes": ",,H,",
+      "datatype": "SNOW",
+      "date": "2016-10-04T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 0
+    },
+    {
+      "attributes": ",,H,",
+      "datatype": "SNOW",
+      "date": "2016-10-05T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 0
+    },
+    {
+      "attributes": ",,H,",
+      "datatype": "SNOW",
+      "date": "2016-10-06T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 0
+    },
+    {
+      "attributes": ",,H,0800",
+      "datatype": "PRCP",
+      "date": "2016-10-03T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 0
+    },
+    {
+      "attributes": ",,H,0800",
+      "datatype": "PRCP",
+      "date": "2016-10-04T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 135
+    },
+    {
+      "attributes": ",,H,0800",
+      "datatype": "PRCP",
+      "date": "2016-10-05T00:00:00",
+      "station": "GHCND:USC00456898",
+      "value": 155
+    },
+    {
+      "attributes": ",,T,",
+      "datatype": "SNWD",
+      "date": "2016-10-03T00:00:00",
+      "station": "GHCND:USS0021C28S",
+      "value": 0
+    },
+    {
+      "attributes": ",,T,",
+      "datatype": "SNWD",
+      "date": "2016-10-04T00:00:00",
+      "station": "GHCND:USS0021C28S",
+      "value": 0
+    },
+    {
+      "attributes": ",,T,",
+      "datatype": "SNWD",
+      "date": "2016-10-05T00:00:00",
+      "station": "GHCND:USS0021C28S",
+      "value": 0
+    }
+  ]
+}

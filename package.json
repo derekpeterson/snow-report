@@ -1,0 +1,48 @@
+{
+  "name": "snow-report",
+  "version": "1.0.0",
+  "description": "Fetches recent snow data for Cascadian mountains",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon index.js",
+    "test": "ava",
+    "test:watch": "npm t -- --watch"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "keywords": [
+    "alexa",
+    "api",
+    "noaa",
+    "skill"
+  ],
+  "author": "Derek Peterson <derekpetey@gmail.com> (https://blog.okayderek.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "~2.0.0",
+    "express": "~4.14.0",
+    "request": "~2.75.0",
+    "uuid": "~2.0.3",
+    "winston": "~2.2.0"
+  },
+  "devDependencies": {
+    "ava": "~0.16.0",
+    "eslint": "~3.7.1",
+    "eslint-config-standard": "~6.2.0",
+    "eslint-plugin-ava": "~3.1.0",
+    "eslint-plugin-promise": "~3.0.0",
+    "eslint-plugin-standard": "~2.0.1"
+  },
+  "ava": {
+    "files": [
+      "test/**/*"
+    ],
+    "source": [
+      "lib/**/*"
+    ],
+    "verbose": true
+  }
+}
