@@ -4,6 +4,7 @@
   "description": "Fetches recent snow data for Cascadian mountains",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint lib/**/*",
     "start": "node index.js",
     "start:watch": "nodemon index.js",
     "test": "ava",

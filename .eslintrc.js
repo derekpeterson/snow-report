@@ -1,3 +1,9 @@
 module.exports = {
-  extends: 'standard'
+  env: {
+    node: true
+  },
+  extends: 'standard',
+  parserOptions: {
+    ecmaVersion: 6
+  }
 }
