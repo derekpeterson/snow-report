@@ -10,8 +10,8 @@
     "test:watch": "npm t -- --watch"
   },
   "engines": {
-    "node": ">=4",
-    "npm": ">=3"
+    "node": "6",
+    "npm": "3"
   },
   "keywords": [
     "alexa",
