@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "SnowReport",
+      "slots": [
+        {
+          "name": "area",
+          "type": "LIST_OF_AREAS"
+        }
+      ]
+    },
+    {
+      "intent": "KnownAreasIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

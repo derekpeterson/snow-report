@@ -1,0 +1,19 @@
+SnowReport is there snow at {area}
+SnowReport is there any snow at {area}
+SnowReport get snow report for {area}
+SnowReport get precipitation for {area}
+SnowReport get snow level for {area}
+SnowReport get snow depth for {area}
+SnowReport get snow base for {area}
+SnowReport what's the base at {area}
+SnowReport give me the snow report for {area}
+SnowReport how much snow is there at {area}
+SnowReport how much snow has {area} gotten
+SnowReport tell me if there's snow at {area}
+SnowReport tell me about {area}
+SnowReport has {area} gotten any snow
+
+KnownAreasIntent what areas are supported
+KnownAreasIntent what areas do you support
+KnownAreasIntent what options do I have
+KnownAreasIntent where can I go
