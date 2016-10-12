@@ -15,4 +15,4 @@ const log = require('./lib/log')({
 const request = require('./lib/request')
 const server = require('./lib/server')(log, request)
 
-server.start('server', process.env.PORT)
+server(log('server'), process.env.PORT)
