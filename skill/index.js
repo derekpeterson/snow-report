@@ -19,32 +19,31 @@ const SnowReport = function () {
 const apiBase = 'http://alexa-snow-report.herokuapp.com/snow/%s'
 const promptText = 'What area would you like a snow report for?'
 const signOffText = 'Think snowy thoughts!'
-const knownStations = [
-  ['baker', {
+const stations = {
+  baker: {
     id: 'baker',
     name: 'Mount Baker'
-  }],
-  ['hood', {
+  },
+  hood: {
     id: 'hood',
     name: 'Mount Hood'
-  }],
-  ['rainier', {
+  },
+  rainier: {
     id: 'rainier',
     name: 'Mount Rainier'
-  }],
-  ['stevens', {
+  },
+  stevens: {
     id: 'stevens',
     name: 'Stevens Pass'
-  }],
-  ['white', {
+  },
+  white: {
     id: 'white',
     name: 'White Pass'
-  }]
-]
-const stations = knownStations.reduce(function (map, item) {
-  map[item[0]] = item[1]
-  return map
-}, {})
+  }
+}
+const knownStations = Object.keys(stations).map(function (key) {
+  return stations[key].name
+}).join(', ')
 
 // Extend AlexaSkill
 SnowReport.prototype = Object.create(AlexaSkill.prototype)
@@ -181,7 +180,7 @@ function handleSnowReportRequest (intent, session, response) {
 function handleKnownAreasRequest (response) {
   const text = [
     'Currently, I can find snow information for these areas: ',
-    Object.keys(stations).join(', '),
+    knownStations + '.',
     promptText
   ].join(' ')
   response.ask(text, promptText)
